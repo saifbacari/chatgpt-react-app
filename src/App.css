@@ -4,3 +4,20 @@
   padding: 2rem;
   text-align: center;
 }
+
+.grid-main {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+
+.grid-child{
+  border: 1px solid;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.grid-child:hover{
+  background-color: whitesmoke;
+  color: #212121
+}
